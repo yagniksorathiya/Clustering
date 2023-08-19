@@ -9,7 +9,7 @@ Perform Clustering(Hierarchical, Kmeans & DBSCAN) for the crime data and identif
 Perform clustering (hierarchical,K means clustering and DBSCAN) for the airlines data to obtain optimum number of clusters. 
 Draw the inferences from the clusters obtained.
 
-# Clustering Method using K-Means, Hierarchical and DBSCAN (using Python)
+# ➳ Clustering Method using K-Means, Hierarchical and DBSCAN (using Python)
 
 **Clustering** is a set of techniques used to partition data into groups, or clusters. Clusters are loosely defined as groups of data objects that are more similar to other objects in their cluster than to data objects in other clusters. Clustering refers to a very broad set of techniques for finding subgroups or clusters in a data set. This is unsupervised problem because we are trying to discover structure, in this case, distinct clusters on the basis of a dataset.
 
@@ -23,7 +23,7 @@ There are three basic types of clustering algorithms : partitional, hierarchical
 
 Since clustering is popular in many fields, there exist a great number of clustering methods. In this section we focus on perhaps the three clustering approaches : K-means clustering, Hierarchical clustering and DBSCAN.
 
-## K-Means Clustering
+## ➳ K-Means Clustering
 
 The K-Means Clustering takes the input of dataset D and parameter k, and then divides a dataset D of n objects into k groups. This partition depends upon the similarity measure so that the resulting intra cluster similarity is high but the inter cluster similarity is low. Cluster similarity is measured regarding the mean value of the objects in a cluster, which can be showed as the cluster’s mean.
 
@@ -32,7 +32,7 @@ The K-Means Clustering takes the input of dataset D and parameter k, and then di
 
 The quality of the cluster assignments is determined by computing the sum of the squared error (SSE) after the centroids converge, or match the previous iteration’s assignment. The SSE is defined as the sum of the squared Euclidean distances of each point to its closest centroid. Since this is a measure of error, the objective of k-means is to try to minimize this value.
 
-## Hierarchical Clustering
+## ➳ Hierarchical Clustering
 
 Hierarchical clustering involves creating clusters that have a predetermined ordering from **top to bottom.** There are two types of hierarchical clustering, Agglomerative and Divisive.
 
@@ -42,7 +42,7 @@ Hierarchical clustering involves creating clusters that have a predetermined ord
 
 + **Agglomerative Clustering :** the type of hierarchical clustering which uses a bottom-up approach to make clusters. It uses an approach of the partitioning 2 most similiar clusters and repeats this step until there is only one cluster.
 
-## DBSCAN
+## ➳ DBSCAN
 
 **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)** is a density based clustering algorithm. The main concept of DBSCAN algorithm is to locate regions of high density that are separated from one another by regions of low density.
 
